@@ -9,7 +9,7 @@ A simple module to help manage permissions of specific files.
 #+begin_src json
   {
     "variables": {
-      "bullshit:file_perms.files": {
+      "nickanderson:file_permissions.files": {
         "value": [
           {
             "path": "/etc/hosts",
@@ -22,3 +22,5 @@ A simple module to help manage permissions of specific files.
     }
   }
 #+end_src
+
+*
