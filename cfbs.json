@@ -44,7 +44,8 @@
       "steps": [
           "copy file-permissions.cf services/file-permissions.cf",
           "input file-permissions/input.json def.json",
-          "bundles nickanderson:file_permissions"
+          "bundles nickanderson:file_permissions",
+          "json inputs-def.json def.json"
       ]
     }
   }
