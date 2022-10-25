@@ -19,6 +19,6 @@ bundle agent file_permissions
   files:
     !windows::
       "$(files[$(i)][path])"
-      perms => m( "$(files[$(i)][mode])" ),
+      perms => default:m( "$(files[$(i)][mode])" ),
       comment => "$(files[$(i)][why])";
 }
