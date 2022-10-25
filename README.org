@@ -23,4 +23,3 @@ A simple module to help manage permissions of specific files.
   }
 #+end_src
 
-*
