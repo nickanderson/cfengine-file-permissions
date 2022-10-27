@@ -42,10 +42,10 @@
         }
       ],
       "steps": [
-          "copy file-permissions.cf services/file-permissions.cf",
+          "copy file-permissions.cf services/cfbs/modules/file-permissions/file-permissions.cf",
           "input file-permissions/input.json def.json",
           "bundles nickanderson:file_permissions",
-          "json inputs-def.json def.json"
+          "policy_files services/cfbs/modules/file-permissions/file-permissions.cf"
       ]
     }
   }
