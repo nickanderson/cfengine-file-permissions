@@ -1,10 +1,10 @@
 body file control
 {
-  namespace => "nickanderson";
+  namespace => "file_permissions";
 }
 bundle agent file_permissions
 # @brief Manage unix file permissions
-# @var files - array of dicts having `path`, `mode` and `why` keys, e.g. `[{"path": "/etc/hosts", "mode": "644", "why": "Any user should be able to resolve names from /etc/hosts"}]`
+# @var file_permissions:file_permissions.files - array of dicts having `path`, `mode` and `why` keys, e.g. `[{"path": "/etc/hosts", "mode": "644", "why": "Any user should be able to resolve names from /etc/hosts"}]`
 #
 # **Notes:**
 # - Each file (or directory) must be enumerated specifically (permissions are not recursively applied)

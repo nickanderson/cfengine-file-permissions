@@ -3,13 +3,13 @@ A simple module to help manage permissions of specific files.
 * Configuration
 
 ** Variables
-- =nickanderson:file_permissions.files= :: Array of dicts having =path=,  =mode=, and =why= keys.
+- =file_permissions:file_permissions.files= :: Array of dicts having =path=,  =mode=, and =why= keys.
 
 #+caption: Example Augments configuration
 #+begin_src json
   {
     "variables": {
-      "nickanderson:file_permissions.files": {
+      "file_permissions:file_permissions.files": {
         "value": [
           {
             "path": "/etc/hosts",
