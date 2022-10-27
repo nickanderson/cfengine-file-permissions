@@ -5,8 +5,8 @@
   "provides": {
     "file-permissions": {
       "description": "This module manages files and their permissions",
-      "tags": [""],
-      "version": "0.0.1",
+      "tags": ["management"],
+      "version": "0.2.0",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-file-permissions",
       "input": [
